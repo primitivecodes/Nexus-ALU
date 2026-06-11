@@ -7,9 +7,9 @@ class OpportunityModel {
   final String time;
   final String location;
   final String organizer;
-  final String status; // 'approved' | 'pending' | 'rejected'
+  final String status; 
   final String? rejectionNote;
-  final String postedBy; // email
+  final String postedBy; 
   final int attendeeCount;
   final String emoji;
 

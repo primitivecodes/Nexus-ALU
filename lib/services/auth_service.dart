@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class UserModel {
   final String email;
   final String name;
-  final String role; // 'student' | 'staff'
+  final String role; 
   final String cohort;
   final String avatar;
 
