@@ -36,7 +36,6 @@ class PostService {
           emoji: m['emoji'] ?? '📌',
         ),
       );
-      // Remove existing user-submitted posts, re-add from prefs
       _posts.removeWhere((p) => !seedOpportunities.any((s) => s.id == p.id));
       _posts.addAll(userPosts);
     }
