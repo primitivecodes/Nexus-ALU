@@ -427,7 +427,7 @@ class _TicketView extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
               ),
-            ),
+            ), // Extra spacing at the bottom
           ],
         ),
       ),
